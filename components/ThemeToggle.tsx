@@ -19,7 +19,7 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
       const initial = prefersLight ? 'light' : 'dark';
       setTheme(initial);
       document.documentElement.setAttribute('data-theme', initial);
-    } catch (e) {
+    } catch {
       // localStorage access may fail in some constrained environments — ignore.
       setTheme('dark');
       document.documentElement.setAttribute('data-theme', 'dark');
@@ -31,7 +31,7 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
     setTheme(next);
     try {
       localStorage.setItem('theme', next);
-    } catch (e) {
+    } catch {
       // ignore
     }
     document.documentElement.setAttribute('data-theme', next);
