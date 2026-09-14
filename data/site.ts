@@ -32,8 +32,8 @@ export const person = {
   responseTime: 'Replies within 24 hours',
   email: 'ankitkumarmishra5155@gmail.com',
   /* ── Update these two URLs and the whole site follows ─────────────── */
-  github: 'https://github.com/ankitkumarmishra',
-  linkedin: 'https://www.linkedin.com/in/ankitkumarmishra',
+  github: 'https://github.com/ANKITMISHRA856',
+  linkedin: 'https://www.linkedin.com/in/ankit856/',
   resumePath: '/resume/ankit_resume.pdf',
   resumeUpdated: 'September 2026',
 } as const;
