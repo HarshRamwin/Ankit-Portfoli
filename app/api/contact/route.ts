@@ -4,7 +4,7 @@ import { clientKey, rateLimit } from '@/lib/rate-limit';
 import { looksAutomated, validateContact } from '@/lib/validation';
 import type { ContactResponse } from '@/lib/types';
 
-export const runtime = 'nodejs';
+export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
 const SUCCESS = "Message sent successfully. I'll get back to you soon.";

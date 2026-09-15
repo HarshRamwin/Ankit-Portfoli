@@ -39,7 +39,9 @@ export const person = {
 } as const;
 
 export const site = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ankitmishra.dev',
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL?.trim().match(/^https?:\/\/\S+$/)?.[0] ??
+    'https://ankitmishra.dev',
   title: 'Ankit Kumar Mishra | QA Automation, DevOps & Cloud Engineer',
   description:
     'Portfolio of Ankit Kumar Mishra, a Software Engineer specializing in QA Automation, Python, CI/CD, Docker, Kubernetes, AWS and Azure.',

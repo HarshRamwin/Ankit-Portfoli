@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     template: `%s | ${person.name}`,
   },
   description: site.description,
+  icons: { icon: '/icon.svg' },
   keywords: [...site.keywords],
   authors: [{ name: person.name, url: site.url }],
   creator: person.name,
