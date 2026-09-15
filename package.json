@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy:cloudflare": "npx @cloudflare/next-on-pages && npx wrangler pages deploy .vercel/output/static --project-name ankit-portfoli",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
