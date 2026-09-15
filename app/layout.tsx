@@ -42,6 +42,7 @@ export const metadata: Metadata = {
     title: site.title,
     description: site.description,
     locale: 'en_US',
+    images: [{ url: '/opengraph-image.svg', width: 1200, height: 630, alt: site.title }],
   },
   twitter: {
     card: 'summary_large_image',

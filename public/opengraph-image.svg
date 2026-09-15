@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#080A0D"/>
+  <rect x="72" y="72" width="12" height="12" rx="6" fill="#37E2A0"/>
+  <text x="108" y="86" fill="#37E2A0" font-family="monospace" font-size="22">PIPELINE #ANKIT-001 · OPEN TO OPPORTUNITIES</text>
+  <text x="72" y="300" fill="#F5F7FA" font-family="sans-serif" font-size="72" font-weight="700">Ankit Kumar Mishra</text>
+  <text x="72" y="370" fill="#F5F7FA" font-family="sans-serif" font-size="38">I build confidence between code and production.</text>
+  <text x="72" y="430" fill="#37E2A0" font-family="monospace" font-size="24">QA Automation · DevOps · Cloud Engineering</text>
+  <line x1="72" y1="520" x2="1128" y2="520" stroke="#1E252D"/>
+  <text x="72" y="560" fill="#89929E" font-family="monospace" font-size="20">Python · Playwright · Jenkins · Docker · Kubernetes · AWS · Azure</text>
+</svg>
